@@ -1,0 +1,61 @@
+@font-face {
+	font-family:"HarmoniaSansProCyr-Regular";
+	src:url("../fonts/HarmoniaSansProCyr-Regular.otf");
+}
+@font-face {
+	font-family:"HarmoniaSansProCyr-Bold";
+	src:url("../fonts/HarmoniaSansProCyr-Bold.otf");
+}
+body{
+	font-family: "HarmoniaSansProCyr-Regular";
+}
+.float-html{
+	box-shadow: 10px 10px 10px black;
+}
+.content{
+	margin: 5px 0 10px 0;
+	padding: 0;
+	width:300px;
+}
+.form-input{
+	border-radius: 0;
+	height:40px;
+	width:300px;
+}
+.input-group-addon{
+	border-radius: 0;
+}
+.view{
+	width: 300px;
+}
+.table-header{
+	background: #D8D8D8;
+	color: #4E4E4E;
+}
+.thead-header{
+	border: 0;
+}
+.speaker{
+	margin-left: 10px;
+}
+.nav-tabs>li>a{
+	border-radius: 0;
+}
+.fa-play{
+	color: #fff;
+	cursor: pointer;
+}
+.fa-play-active{
+	color: #000;
+}
+.fa-upload{
+	color: #fff;
+	cursor: pointer;
+	margin-left: 150px;
+}
+.fa-upload-active{
+	color: #fff;
+}
+.highlight{
+	background: #000;
+}

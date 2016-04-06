@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Từ điển Naver",
+  "description": "Từ điển của Linh.",
+  "version": "1.0",
+
+  "icons": { 
+    "64": "image/icon.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background":{
+    "scripts": ["js/background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["css/main.css"],
+      "js": ["js/jquery-2.2.2.min.js", "js/main.js"]
+    }
+  ]
+}
